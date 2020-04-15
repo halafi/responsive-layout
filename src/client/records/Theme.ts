@@ -4,7 +4,7 @@ export const SIZES = {
   DESKTOP: 1220,
   BIG_TABLET: 1112,
   TABLET: 768,
-  BIG_MOBILE: 600, // or 568
+  BIG_MOBILE: 600,
   MIDDLE_MOBILE: 414,
   SMALL_MOBILE: 360,
 };
@@ -35,7 +35,7 @@ export const themeDefault = {
   colors: {
     text: '#ffffff',
     primary: '#000000',
-    // secondary: '#ffffff',
+    secondary: '#F0BC30',
     navbar: '#4F592A',
     main: '#FBDFAA',
     footer: '#CCC774',
@@ -46,7 +46,7 @@ export const themeDefault = {
   buttons: {
     primary: {
       color: 'primary',
-      bg: '#F0BC30',
+      background: `linear-gradient(90deg, rgba(238, 183, 45, 1) 0%, rgba(250, 216, 75, 1) 100%)`,
       cursor: 'pointer',
       borderRadius: '25px',
     },

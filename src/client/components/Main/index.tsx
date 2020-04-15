@@ -3,7 +3,7 @@ import { Box } from 'rebass/styled-components';
 
 const Main = () => (
   <Box
-    as="main"
+    as="section"
     bg="main"
     flexGrow={4}
     order={[1, null, null, null, 2]}
