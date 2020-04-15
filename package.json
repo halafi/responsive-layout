@@ -6,8 +6,8 @@
   "scripts": {
     "start": "npm run webpack:dev",
     "build": "npm run clean && npm run webpack:prod && npm run copy:assets",
-    "clean": "rm -rf dist",
-    "copy:assets": "cp -R public/* ./dist",
+    "clean": "rm -rf docs",
+    "copy:assets": "cp -R public/* ./docs",
     "test": "jest",
     "test:watch": "jest --watch",
     "webpack:dev": "webpack-dev-server --mode development --hot --inline --config config/webpack.dev.js --open --env.NODE_ENV=development",
